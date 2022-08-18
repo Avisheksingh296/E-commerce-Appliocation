@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+  /* Basic Options */
+  "target": "es5",
+  "esModuleInterop": true,
+  "module": "commonjs",
+  "sourceMap": true,                     
+  "outDir": "./build",
+  "rootDir": "./src",
+  "strict": false,
+  "moduleResolution": "node",
+  "baseUrl": "./src", 
+  "noImplicitAny": false,
+  "forceConsistentCasingInFileNames": true,
+  "resolveJsonModule": true
+  },
+  "include": [ "src/**/*"],
+  "exclude": ["node_modules"]
+  }
